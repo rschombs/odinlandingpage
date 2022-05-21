@@ -1,0 +1,183 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    align-items: center;
+    padding: 16px 200px;
+
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    width: 470px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 100px 200px;
+    gap: 50px;
+}
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 1.7;
+    padding-bottom: 8px;
+}
+
+.hero-signup {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 8px 18px;
+    font-size: 16px;
+}
+
+.placeholder-image {
+    background-color: grey;
+    width: 500px;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.random-info {
+    padding: 50px 200px;
+    padding-bottom: 100px;
+}
+
+.random-text{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.icon-container {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.icon{
+    width: 125px;
+}
+
+.icon-placeholder {
+    height: 150px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 15px;
+
+}
+
+.subtitle {
+    padding-top: 8px;
+    text-align: center;
+}
+
+.quote{
+    padding: 100px 200px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:300;
+    width: 620px;
+    padding: 25px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    padding-right: 200px;
+    font-weight: bold;
+}
+
+.action {
+    padding: 100px 200px;
+}
+
+.signup {
+    background-color: #3882F6;
+    border-radius: 5px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+}
+
+.action-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.action-subtitle {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.action-signup {
+    border-radius: 15px;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    padding: 8px 16px;
+    font-weight: bold;
+
+}
+
+.footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 100px;
+}
+
+.footer-text {
+    color:#E5E7EB;
+}
